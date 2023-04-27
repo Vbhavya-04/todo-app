@@ -58,15 +58,6 @@ export const changeTheme = theme => {
 	persistTasks('theme', theme);
 };
 
-// Service worker registration
-export const registerServiceWorker = () => {
-	if ('serviceWorker' in navigator) {
-		window.addEventListener('load', () =>
-			navigator.serviceWorker.register(new URL('../../serviceWorker', import.meta.url))
-		);
-	}
-};
-
 // Initial call
 const init = () => {
 	const todoTasks = localStorage.getItem('tasks');
