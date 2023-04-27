@@ -41,8 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/todo-app-E1WQLoL2_3)
-- Live Site URL: [Live site URL here](https://app-todo-25.netlify.app/)
+- Live Site URL: [Live site URL here](https://todo-bhavya.netlify.app/)
 
 ## My process
 
